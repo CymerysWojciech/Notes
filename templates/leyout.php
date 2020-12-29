@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="pl">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -12,7 +13,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="bg-secondary mt-3">
+    <div class="bg-secondary mt-3 rounded-3">
         <p class="text-center text-light fs-2 fw-light p-1 " style="letter-spacing: 20px">NOTES</p>
     </div>
     <div class="row">
@@ -24,7 +25,7 @@
           <?php  require_once "templates/pages/$page.php" ?>
         </div>
     </div>
-    <div class="bg-secondary mt-3">
+    <div class="bg-secondary mt-3 rounded-3">
         <p class="text-center text-light fw-light p-1 ">Created Wojciech Cymerys | All rights reserved</p>
     </div>
 

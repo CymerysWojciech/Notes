@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 ini_set('display_errors','1');
 function dump($data)
 {
-    echo '<div 
+    echo '<br/><div 
         style= "
             display: inline-block;
             padding: 0 10px;
@@ -16,7 +16,6 @@ function dump($data)
             <pre>';
     print_r($data);
     echo '</pre>
-    </dir>
-    <br/>
-    ';
+    </div>
+    <br/> ';
 }
