@@ -10,7 +10,7 @@
             <label for="description" class="form-label">Treść</label>
             <textarea name="description" id="description"  rows="8" class="form-control"></textarea>
         </div>
-        <button type="submit" class="btn btn-secondary mt-2 ">Zapisz</button>
+        <button type="submit" class="btn btn-secondary mt-2  btn-sm">Zapisz</button>
         </form>
     </div>
 </div>
